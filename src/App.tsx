@@ -1,7 +1,12 @@
+import ComboButton from "./components/ComboButton/ComboButton";
+import Layout from "./layout/Layout";
+
 function App() {
   return (
     <>
-      <div>123</div>
+      <Layout>
+        <ComboButton />
+      </Layout>
     </>
   );
 }
